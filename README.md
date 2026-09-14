@@ -1,6 +1,6 @@
 # Arminder-API-Tracker-extension
 Chrome Manifest V3 extension
-I created a ready-to-install Chrome Manifest V3 extension. It activates only for the configured website, records API timing details, and exports the results as JSON to Chrome’s Downloads folder.
+I created a ready-to-install Chrome Manifest V3 extension. It activates only for the configured website, records API timing details, and exports the results as JSON or Excel as per output setting to Chrome’s Downloads folder.
 
 **Installation**
 Extract the downloaded ZIP file.
