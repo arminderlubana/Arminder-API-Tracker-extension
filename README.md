@@ -61,3 +61,5 @@ You can also click Export JSON from the extension popup at any time.
 The totalDurationMs value represents the browser-observed, end-to-end request duration. It includes browser processing, connection and network time, server processing, downloading, and related overhead. It is not the server’s internal execution time alone.
 
 Chrome’s webRequest API does not expose response bodies, so the extension captures response headers, status, completion time, and timing information, but not response content.
+
+Download : https://github.com/arminderlubana/Arminder-API-Tracker-extension/blob/e9f6fe4ca09cb0b7581a3f016ebb7f8d6fd75a20/arminder-api-tracker%20-%20Json%20response.zip
