@@ -8,14 +8,19 @@ Open chrome://extensions in Chrome.
 Enable Developer mode.
 Click Load unpacked.
 Select the extracted arminder-api-tracker folder.
-Open the extension and select Settings.
-Configure:
-Website URL, for example: https://your-website.com
 
-  **API patterns, for example:**
-  /api/
-  /graphql
-  /odata/
+Open the extension and select Settings.
+ Configure:
+  Website URL, for example: https://your-website.com
+  
+    **API patterns, for example:**
+    /api/
+    /graphql
+    /odata/
+    
+ Changes Export format setting:
+   JSON
+   Excel .xlsx
 
 **Information captured**
 Request URL
@@ -40,7 +45,8 @@ The extension uses Chrome’s webRequest API to observe request lifecycle events
 **JSON download behavior**
 
 Files are created with names similar to:
-  arminder+2026-09-04T06-15-30-123Z.json
+**  arminder+<datetime>.json
+  arminder+<datetime>.xlsx**
 
 The extension exports automatically when:
 
