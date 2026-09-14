@@ -45,8 +45,8 @@ The extension uses Chrome’s webRequest API to observe request lifecycle events
 **JSON download behavior**
 
 Files are created with names similar to:
-**  arminder+<datetime>.json
-  arminder+<datetime>.xlsx**
+**  arminder+<datetime>.json**
+**  arminder+<datetime>.xlsx**
 
 The extension exports automatically when:
 
