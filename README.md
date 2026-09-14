@@ -46,6 +46,7 @@ The extension uses Chrome’s webRequest API to observe request lifecycle events
 
 Files are created with names similar to:
    **arminder+<datetime>.json**
+   
    **arminder+<datetime>.xlsx**
 
 The extension exports automatically when:
